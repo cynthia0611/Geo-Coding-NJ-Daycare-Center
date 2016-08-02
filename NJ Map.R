@@ -32,7 +32,7 @@ nj3 <- get_map (location = ("Florham park,nj"),
 njBaseMap <- ggmap(nj,extent="device")
 
 # read in geo location data as points
-centers <- read.csv("Z:/Yueming/Licensed_Child_Care_Centers.csv")
+centers <- read.csv("https://raw.githubusercontent.com/cynthia0611/Geo-Coding-NJ-Daycare-Center/master/Licensed_Child_Care_Centers.csv")
 
 # head(data)
 
